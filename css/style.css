@@ -1,0 +1,309 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 200;
+    color: rgb(166, 165, 165);
+    text-decoration: none;
+    /* color: #fff; */
+  }
+  .background {
+    background: linear-gradient(
+      45deg,
+      rgb(6, 12, 13) 0%,
+      rgb(43, 64, 64) 50%,
+      rgb(6, 12, 13) 50%,
+      rgb(43, 64, 64) 100%
+    );
+  }
+  form {
+  }
+  .form-section {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .image {
+    width: 40%;
+    padding: 100px 50px;
+  }
+  .image img {
+    width: 100%;
+    border-radius: 2%;
+  }
+  .menu {
+    width: 40%;
+    padding: 100px 50px;
+  }
+  .menu h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 33px;
+  }
+  .first-name {
+    display: flex;
+    width: 100%;
+  }
+  .self-name {
+    width: 50%;
+  }
+  .self-name label {
+    font-family: 'Montserrat', sans-serif;
+  }
+  .self-name input {
+    caret-color: rgb(255, 255, 255);
+    margin-top: 5px;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .self-name input:hover {
+    border-color: rgb(0, 92, 200);
+  }
+  .self-name input:focus {
+    outline: none;
+    color: rgb(255, 255, 255);
+  }
+  .father-name {
+    width: 50%;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .father-name label {
+  }
+  .father-name input {
+    caret-color: rgb(255, 255, 255);
+    margin-top: 5px;
+    padding: 5px;
+  }
+  .father-name input:hover {
+    border-color: rgb(0, 92, 200);
+  }
+  .father-name input:focus {
+    outline: none;
+    color: rgb(255, 255, 255);
+  }
+  .menu label {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .menu input {
+    width: 90%;
+    background: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+  }
+  .address {
+    margin-top: 15px;
+  }
+  .address-name {
+    width: 106%;
+  }
+  .address-name label {
+    font-family: 'Montserrat', sans-serif;
+  }
+  .address-name input {
+    caret-color: rgb(255, 255, 255);
+    width: 90%;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    border-color: rgb(255, 255, 255);
+  }
+  .address-name input:hover {
+    border-color: rgb(0, 92, 200);
+  }
+  .address-name input:focus {
+    outline: none;
+    color: rgb(255, 255, 255);
+  }
+  .gender-choice {
+    margin: 30px 0px;
+    display: flex;
+  }
+  .gender-header {
+  }
+  .gender-header label {
+    font-family: 'Montserrat', sans-serif;
+  }
+  .gender-type {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+  }
+  .gender-type p{
+    font-family: 'Montserrat', sans-serif;
+  }
+  .gender-type input {
+  }
+  .gender-type input p {
+    font-family: 'Montserrat', sans-serif;
+  }
+  .city {
+    display: flex;
+    width: 103%;
+  }
+  .state-name {
+    width: 50%;
+  }
+  .state-name label {
+    font-family: 'Montserrat', sans-serif;
+  }
+  .state-name select {
+    width: 90%;
+    background: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    padding: 5px;
+    margin-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .state-name select:focus {
+    outline: none;
+    color: rgb(255, 255, 255);
+  }
+  .state-name select:hover {
+    border-color: rgb(0, 92, 200);
+  }
+  .city-name {
+    width: 50%;
+  }
+  .city-name label {
+    font-family: 'Montserrat', sans-serif;
+  }
+  .city-name select {
+    width: 90%;
+    background: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    padding: 5px;
+    margin-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .city-name select:focus {
+    outline: none;
+    color: rgb(255, 255, 255);
+  }
+  .city-name select:hover {
+    border-color: rgb(0, 92, 200);
+  }
+  .date {
+    margin-top: 15px;
+  }
+  .date-number label {
+    font-family: 'Montserrat', sans-serif;
+  }
+  .date-number input {
+    caret-color: rgb(255, 255, 255);
+    width: 96%;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    border-color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+  }
+  .date-number input:focus {
+    outline: none;
+    color: rgb(255, 255, 255);
+  }
+  .date-number input:hover {
+    border-color: rgb(0, 92, 200);
+  }
+  .password {
+    margin-top: 15px;
+  }
+  .password label {
+    margin-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .password input {
+    width: 96%;
+    padding: 5px;
+    margin-top: 5px;
+  }
+  .password input:focus {
+    outline: none;
+    color: rgb(255, 255, 255);
+  }
+  .password input:hover {
+    border-color: rgb(0, 92, 200);
+  }
+  .course-name {
+    margin-top: 15px;
+  }
+  .course-name label {
+    font-family: 'Montserrat', sans-serif;
+  }
+  .course-name select {
+    caret-color: rgb(255, 255, 255);
+    width: 99%;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    border-color: rgb(255, 255, 255);
+    background-color: transparent;
+  }
+  .course-name select:focus {
+    outline: none;
+    color: rgb(255, 255, 255);
+  }
+  .course-name select:hover {
+    border-color: rgb(0, 92, 200);
+  }
+  .email-name {
+    margin-top: 15px;
+  }
+  .email-name label {
+    font-family: 'Montserrat', sans-serif;
+  }
+  .email-name input {
+    width: 97%;
+    caret-color: rgb(255, 255, 255);
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    border-color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+  }
+  .email-name input:focus {
+    outline: none;
+    color: rgb(255, 255, 255);
+  }
+  .email-name input:hover {
+    border-color: rgb(0, 92, 200);
+  }
+  .submit {
+    margin-top: 20px;
+    justify-content: end;
+    display: flex;
+  }
+  .one {
+    margin-right: 25px;
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .two {
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .one:hover {
+    border-color: rgb(0, 92, 200);
+    background-color: rgb(0, 92, 200);
+  }
+  .two:hover {
+    border-color: rgb(0, 92, 200);
+    background-color: rgb(0, 92, 200);
+  }
+  
